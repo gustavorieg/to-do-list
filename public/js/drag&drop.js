@@ -1,4 +1,5 @@
 const columns = document.querySelectorAll(".tasks");
+const contextMenu = document.querySelector(".context-menu");
 
 document.addEventListener("dragstart", (e) => {
   if (e.target.classList.contains("task")) {
@@ -40,6 +41,7 @@ columns.forEach((column) => {
 
   column.addEventListener("dragleave", (e) => {
     const target = e.target;
+    contextMenu.style.display = "none";
     if (target.classList.contains("task") && target.classList.contains("drag-over")) {
       target.classList.remove("drag-over");
     }

@@ -240,22 +240,9 @@ nav li {
 
 .descricao-task {
     font-size: 14px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
 
-.opcao-task button {
-    border: none;
-    background-color: #fff;
-    color: #1D1D1D;
-    font-size: 25px;
-}
 
-.opcoes-task {
-    position: absolute;
-
-}
 
 .dragging {
     opacity: 0.3;
@@ -280,4 +267,50 @@ nav li {
     border-left: 2px solid #fff;
     color: #fff;
     transition: 0.5s;
+}
+
+/*****************************************************************
+                            MODAIS
+*****************************************************************/
+
+.context-menu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.context-menu-item {
+    cursor: pointer;
+    padding: 5px;
+}
+
+.context-menu-item:hover {
+    background-color: #f0f0f0;
+}
+
+.addModal {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.753);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    display: none;
+}
+
+.addModal-conteudo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px; /* Largura da div */
+    height: 200px; /* Altura da div */
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
 }

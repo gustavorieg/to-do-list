@@ -29,21 +29,14 @@
                         <p>Pendência<span>(2)</span></p>
                     </div>
                     <div class="add-menu">
-                        <button><i class="fa-solid fa-plus"></i> Add Tarefa</button>
+                        <button id="add-menu"><i class="fa-solid fa-plus"></i> Add Tarefa</button>
                     </div>
                 </div>
                 <div class="tasks">
-                    <div class="task" draggable="true">
+                    <div class="task" id="task" draggable="true">
                         <div class="descricao-task">
                             <div class="descricao">
                                 <p>Criar um novo usuário no sistema Datasul e TOTH.</p>
-                            </div>
-                            <div class="opcao-task">
-                                <button onclick="abrirModalEdit()"><i class="fa-solid fa-ellipsis-vertical"></i></button>
-                            </div>
-                            <div class="opcoes-task">
-                                <button><i class="fa-solid fa-pen-to-square"></i></button>
-                                <button><i class="fa-solid fa-trash"></i></button>
                             </div>
                         </div>
                     </div>
@@ -86,6 +79,16 @@
                 </div>
             </div>
         </div>
+    </div>
+</div>
+<div class="context-menu">
+    <div class="context-menu-item">Editar</div>
+    <div class="context-menu-item">Excluir</div>
+</div>
+
+<div class="addModal">
+    <div class="addModal-conteudo">
+        <h1>teste</h1>
     </div>
 </div>
 @endsection
