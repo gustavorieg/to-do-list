@@ -10,4 +10,9 @@ class ToDoListController extends Controller
     {
         return view("index");
     }
+
+    public function tasks()
+    {
+        return view("tasks");
+    }
 }

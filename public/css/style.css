@@ -48,8 +48,180 @@ nav li {
     flex-direction: column;
 }
 
+.opcoes a {
+    padding: 30px;
+    color: #858585;
+    font-size: 20px;
+}
+
+.opcoes a:hover {
+    border-left: 2px solid #fff;
+    color: #fff;
+    transition: 0.5s;
+}
+
 .sair {
     margin: 20px;
+}
+
+.sair a {
+    color: #858585;
+    font-size: 20px;
+}
+
+.sair a:hover {
+    color: #fff;
+}
+
+/*****************************************************************
+                        NAV-BAR TOP
+*****************************************************************/
+
+.voltar-inicio {
+    font-size: 12px;
+    margin: auto 0px;
+}
+
+.voltar-inicio a {
+    color: #858585;
+    text-decoration: none;
+}
+
+.voltar-inicio a:hover{
+    text-decoration: underline;
+}
+
+.navbar-top-conteudo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px auto;
+}
+
+.user-menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.notificacao {
+    font-size: 20px;
+    margin: auto 10px;
+}
+
+.notificacao a {
+    color: #1D1D1D;
+}
+
+.notificacao a:hover {
+    color: #858585;
+}
+
+.usuario {
+    font-size: 40px;
+}
+
+.usuario a {
+    color: #1D1D1D;
+}
+
+.usuario a:hover {
+    color: #858585;
+}
+
+
+/*****************************************************************
+                            TASKS
+*****************************************************************/
+
+.conteudo-tasks {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.titulo p {
+    font-size: 12px;
+    color: #858585;
+}
+
+.titulo span {
+    color: #1D1D1D;
+    font-weight: bold;
+}
+
+.pesquisa-tasks {
+    border: 1px solid #1D1D1D;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.pesquisa-tasks input {
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.pesquisa-tasks input:focus {
+    outline: 0;
+}
+
+.pesquisa-tasks button {
+    border: none;
+    background-color: #fff;
+    border-radius: 100%;
+    padding: 5px;
+}
+
+.pesquisa-tasks button:hover {
+    background-color: #1D1D1D;
+    color: #fff;
+    transition: 1s;
+}
+
+.container-menus-tasks {
+    margin-top: 60px;
+}
+
+.conteudo-menus-tasks {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.menu-task {
+    margin: 0px 20px;
+}
+
+.tit-add-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tit-menu p { 
+    font-weight: bold;
+}
+
+.tit-menu p span {
+    color: #858585;
+    font-size: 12px;
+    padding-left: 2px;
+}
+
+.add-menu button{
+    text-decoration: none;
+    font-size: 12px;
+    color: #1D1D1D;
+    background-color: #1d1d1d73;
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+}
+
+.add-menu button:hover {
+    background-color: #1D1D1D;
+    color: #fff;
+    transition: 0.5s;
 }
 
 /*****************************************************************
@@ -60,5 +232,15 @@ nav li {
     width: 100%;
     background-color: #fff;
     margin: 15px;
-    border-radius: 25px;
+    border-radius: 30px;
+}
+
+.container-conteudo {
+    margin: 15px 40px;
+}
+
+.ativo {
+    border-left: 2px solid #fff;
+    color: #fff;
+    transition: 0.5s;
 }

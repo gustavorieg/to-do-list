@@ -16,9 +16,9 @@
                     <a href=""><i class="fa-solid fa-clipboard-list"></i></a>
                 </div>
                 <div class="opcoes">
-                    <a href="/"><li><i class="fa-solid fa-gauge"></i></li></a>
-                    <a href="/"><li><i class="fa-solid fa-folder"></i></li></a>
-                    <a href="/"><li><i class="fa-solid fa-user-group"></i></li></a>
+                    <a href="/"><i class="fa-solid fa-gauge"></i></a>
+                    <a href="tasks" class=@yield('TasksAtivo')><i class="fa-solid fa-folder"></i></a>
+                    <a href="/"><i class="fa-solid fa-user-group"></i></a>
                 </div>
                 <div class="sair">
                     <a href=""><i class="fa-solid fa-door-open"></i></a>
@@ -27,6 +27,27 @@
         </nav>
     </header>
 
-@yield('content')
+    
+<div class="container">
+    <div class="container-conteudo">
+        <div class="navbar-top">
+            <div class="navbar-top-conteudo">
+                <div class="voltar-inicio">
+                    <a href="/"><i class="fa-solid fa-arrow-left-long"></i> Voltar ao ínicio</a>
+                </div>
+                <div class="user-menu">
+                    <div class="notificacao">
+                        <a href="/"><i class="fa-solid fa-bell"></i></a>
+                    </div>
+                    <div class="usuario">
+                        <a href="/"><i><i class="fa-solid fa-circle-user"></i></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        @yield('content') 
+    </div>
+</div>
+
 </body>
 </html>
