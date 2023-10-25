@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Sometype+Mono&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Sometype Mono', monospace;
+}
+
+body {
+    background-color: #1D1D1D;
+    display: flex;
+    flex-direction: row;
+}
+
+
+/*****************************************************************
+                          MENU LATERAL
+*****************************************************************/
+
+.container-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 150px;
+    height: 100vh;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+.logo {
+    margin: 40px;
+}
+
+.logo a {
+    background-color: #F6F0D8;
+    color: #1D1D1D;
+    padding: 15px 20px;
+    font-size: 26px;
+    border-radius: 10px;
+}
+
+.opcoes {
+    display: flex;
+    flex-direction: column;
+}
+
+.sair {
+    margin: 20px;
+}
+
+/*****************************************************************
+                        PÁGINA PRINCIPAL
+*****************************************************************/
+
+.container {
+    width: 100%;
+    background-color: #fff;
+    margin: 15px;
+    border-radius: 25px;
+}
