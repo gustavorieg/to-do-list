@@ -181,15 +181,18 @@ nav li {
 
 .container-menus-tasks {
     margin-top: 60px;
+    height: 100%;
 }
 
 .conteudo-menus-tasks {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 100%;
 }
 
 .menu-task {
     margin: 0px 20px;
+    height: 70vh;
 }
 
 .tit-add-menu {
@@ -233,16 +236,31 @@ nav li {
     margin-top: 20px;
     border-radius: 20px;
     padding: 30px;
-    
 }
 
 .descricao-task {
     font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.opcao-task button {
+    border: none;
+    background-color: #fff;
+    color: #1D1D1D;
+    font-size: 25px;
+}
+
+.opcoes-task {
+    position: absolute;
+
 }
 
 .dragging {
     opacity: 0.3;
-  }
+}
+
 /*****************************************************************
                         PÁGINA PRINCIPAL
 *****************************************************************/

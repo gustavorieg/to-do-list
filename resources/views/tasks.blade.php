@@ -35,7 +35,16 @@
                 <div class="tasks">
                     <div class="task" draggable="true">
                         <div class="descricao-task">
-                            <p>Criar um novo usuário no sistema Datasul e TOTH.</p>
+                            <div class="descricao">
+                                <p>Criar um novo usuário no sistema Datasul e TOTH.</p>
+                            </div>
+                            <div class="opcao-task">
+                                <button onclick="abrirModalEdit()"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                            </div>
+                            <div class="opcoes-task">
+                                <button><i class="fa-solid fa-pen-to-square"></i></button>
+                                <button><i class="fa-solid fa-trash"></i></button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -50,11 +59,6 @@
                     </div>
                 </div>
                 <div class="tasks">
-                    <div class="task" draggable="true">
-                        <div class="descricao-task">
-                            <p>Criar um novo usuário no sistema Datasul e TOTH.</p>
-                        </div>
-                    </div>
                 </div>
             </div>
             <div class="menu-task">
@@ -67,11 +71,6 @@
                     </div>
                 </div>
                 <div class="tasks">
-                    <div class="task" draggable="true">
-                        <div class="descricao-task">
-                            <p>Criar um novo usuário no sistema Datasul e TOTH.</p>
-                        </div>
-                    </div>
                 </div>
             </div>
             <div class="menu-task">
@@ -84,11 +83,6 @@
                     </div>
                 </div>
                 <div class="tasks">
-                    <div class="task" draggable="true">
-                        <div class="descricao-task">
-                            <p>Criar um novo usuário no sistema Datasul e TOTH.</p>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
