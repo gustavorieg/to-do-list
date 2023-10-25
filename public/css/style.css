@@ -224,6 +224,25 @@ nav li {
     transition: 0.5s;
 }
 
+.tasks {
+    height: 100%;
+}
+
+.task {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 30px;
+    
+}
+
+.descricao-task {
+    font-size: 14px;
+}
+
+.dragging {
+    opacity: 0.3;
+  }
 /*****************************************************************
                         PÁGINA PRINCIPAL
 *****************************************************************/

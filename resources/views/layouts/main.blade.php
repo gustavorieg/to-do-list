@@ -49,5 +49,6 @@
     </div>
 </div>
 
+    <script src="/js/drag&drop.js"></script>
 </body>
 </html>

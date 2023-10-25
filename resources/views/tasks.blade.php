@@ -11,7 +11,7 @@
         <div class="titulo-desc">
             <div class="titulo">
                 <h1>Tarefas</h1>
-                <p>Última modificação realizada por <span>Gustavo Rieg</span>, hoje as 13:00.</p>
+                <p>Última modificação realizada por <span>Gustavo Rieg</span>, hoje às 13:00.</p>
             </div>
         </div>
         <div class="input-tasks">
@@ -26,10 +26,17 @@
             <div class="menu-task">
                 <div class="tit-add-menu">
                     <div class="tit-menu">
-                        <p>To do<span>(2)</span></p>
+                        <p>Pendência<span>(2)</span></p>
                     </div>
                     <div class="add-menu">
                         <button><i class="fa-solid fa-plus"></i> Add Tarefa</button>
+                    </div>
+                </div>
+                <div class="tasks">
+                    <div class="task" draggable="true">
+                        <div class="descricao-task">
+                            <p>Criar um novo usuário no sistema Datasul e TOTH.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -42,6 +49,13 @@
                         <button><i class="fa-solid fa-plus"></i> Add Tarefa</button>
                     </div>
                 </div>
+                <div class="tasks">
+                    <div class="task" draggable="true">
+                        <div class="descricao-task">
+                            <p>Criar um novo usuário no sistema Datasul e TOTH.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="menu-task">
                 <div class="tit-add-menu">
@@ -52,6 +66,13 @@
                         <button><i class="fa-solid fa-plus"></i> Add Tarefa</button>
                     </div>
                 </div>
+                <div class="tasks">
+                    <div class="task" draggable="true">
+                        <div class="descricao-task">
+                            <p>Criar um novo usuário no sistema Datasul e TOTH.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="menu-task">
                 <div class="tit-add-menu">
@@ -60,6 +81,13 @@
                     </div>
                     <div class="add-menu">
                         <button><i class="fa-solid fa-plus"></i> Add Tarefa</button>
+                    </div>
+                </div>
+                <div class="tasks">
+                    <div class="task" draggable="true">
+                        <div class="descricao-task">
+                            <p>Criar um novo usuário no sistema Datasul e TOTH.</p>
+                        </div>
                     </div>
                 </div>
             </div>
