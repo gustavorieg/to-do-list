@@ -22,17 +22,22 @@ document.addEventListener("DOMContentLoaded", function () {
 document.addEventListener("DOMContentLoaded", function () {
     const add = document.getElementById("add-menu")
     const modal = document.querySelector(".addModal")
-    const conteudo = document.querySelector(".addModal-conteudo")
+    const titulo = document.querySelector(".tit-modal-conteudo")
 
     add.addEventListener("click", function () {
+
+        const elementoPai = document.querySelector(".menu-task");
+        const elementoComClasse = elementoPai.querySelector(".tit-menu");
+        const valor = elementoComClasse.textContent;
+        const tit = valor.split("(");
+
+        titulo.innerHTML = "Criar task" + tit[0];
         modal.style.display = "block";
     });
-
 
     modal.addEventListener("click", function (event) {
         if (event.target == modal ){
             modal.style.display = "none";
         }
-        
     });
 });

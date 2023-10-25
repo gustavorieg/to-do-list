@@ -88,7 +88,9 @@
 
 <div class="addModal">
     <div class="addModal-conteudo">
-        <h1>teste</h1>
+        <div class="tit-modal-conteudo">
+
+        </div>
     </div>
 </div>
 @endsection
